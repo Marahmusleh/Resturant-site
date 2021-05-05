@@ -1,35 +1,38 @@
-header {
-  color:black;
-}
-
-header nav ul li{
-  display: inline-block;
-  height:20px;
-  width:100px;
-  font-size:large;
-  padding-right: 30px;
-}
-
-p4 {
-    font-weight: bold;
-    font-size: 20px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+p2{
+  font-weight: bold;
+  font-size: 50px;
+  color:aliceblue; 
+  font:left;
 }
 
 p1{
   font-weight: bold;
   font-size: 20px;
+  color: black; 
 }
 
-p2{
+p3{
   font-weight: bold;
   font-size: 20px;
+  color:white; 
 }
 
-p5{
+p4{
   font-weight: bold;
   font-size: 20px;
+  color:black; 
+  margin-bottom: 100px;
+}
+
+header {
+  color:black;
+}
+
+header nav ul li{
+  color:red;
+  display: inline-block;
+  height:20px;
+  width:100px;
+  font-size:large;
+  padding-right: 30px;
 }
