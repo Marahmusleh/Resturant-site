@@ -19,7 +19,7 @@ while(favburger !== 'chicken alfredo burger' && favburger !== 'classic beef burg
 }
 
 var userInput = prompt("How many meals do you want?")
-for (var i =0;i<=userInput;i++)
+for (var i =1;i<=userInput;i++)
 {
   if(favburger =='chicken alfredo burger'){
   document.write(i+"-")
