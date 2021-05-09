@@ -24,6 +24,7 @@ userMeal()
 var userInput = prompt("How many meals do you want?")
 
 function Gettingmeal () {
+=======
 for (var i =1;i<=userInput;i++)
 {
   if(favburger =='chicken alfredo burger'){
