@@ -14,12 +14,17 @@ alert('GET 20% off all Entrees')
 
 var favburger = prompt("Do your prefer Chicken alfredo burger or Classic Beef Burger?")
 
+function userMeal () {
 while(favburger !== 'chicken alfredo burger' && favburger !== 'classic beef burger'){
   favburger = prompt("Please choose between chicken alfredo burger and classic beef burger")
 }
+} 
+userMeal()
 
 var userInput = prompt("How many meals do you want?")
-for (var i =0;i<=userInput;i++)
+
+function Gettingmeal () {
+for (var i =1;i<=userInput;i++)
 {
   if(favburger =='chicken alfredo burger'){
   document.write(i+"-")
@@ -30,3 +35,5 @@ else{
   document.write('<img src = "https://www.crushpixel.com/big-static7/preview4/big-burger-with-french-fries-170857.jpg">')
 }
 }
+}
+Gettingmeal()
